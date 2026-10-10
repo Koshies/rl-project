@@ -31,7 +31,7 @@ from torch.distributions import Categorical
 # Optional utilities for rendering the demo gif and exporting the slide deck.
 from PIL import Image, ImageDraw
 
-# Project output paths: results folder, saved model, and final presentation file.
+# Project output paths: results folder, and saved model.
 ROOT = Path(__file__).resolve().parent
 RESULTS_DIR = ROOT / "results"
 MODEL_FILE = ROOT / "warehouse_ppo_model.pt"
